@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>    <link rel="stylesheet" href="Styles/header.css">
+    <link rel="stylesheet" href="style.css">
+    <label for="index2"></label>
+   
+    <title>OBD PoweTruck</title>
+</head>
+<body>  
+    <section id="pagina-inicial">
+            <header id="header">
+            <nav id="navbar">
+                <a id="clickviver" href="index.html"> <picture><img id="davicar" src="img/LogoPWT.png" alt="Viver e Conectar"> </picture></a>
+               
+                
+                <ul id="nav-list">
+                    <li class="nav-item active">
+                        <a href="index.html" class="nav-link">Inicio</a>
+                    </li>
+                    
+                    <li class="nav-item ">
+                        <a href="#factory"  class="nav-link">Serviços</a>
+                    </li>
+
+                    <li class="nav-item ">
+                        <a href="#sobre"  class="nav-link">Agendamento</a>
+                    </li>                    
+
+                    <li class="nav-item ">
+                        <a href="#Localizacao"  class="nav-link">Localização</a>
+                    </li>
+
+                    <li class="nav-item ">
+                        <a href="#conttato"  class="nav-link">Contato</a>
+                    </li>
+
+       
+                </ul>
+              
+               
+               
+               </nav>
+               <section id="mobiletruck">
+                <img src="img/image-removebg-preview (27).png" alt="">
+               </section>
+               <nav id="navbar2">
+                <div id="bloco1">
+                    <li class="nav-item">
+                        <a href="#header" class="nav-link">Inicio</a>
+                    </li>
+                    
+                    <li class="nav-item ">
+                        <a href="#factory"  class="nav-link">Serviços</a>
+                    </li>
+    
+                    <li class="nav-item ">
+                        <a href="#sobre"  class="nav-link">Agendamento</a>
+                    </li>   
+
+                    <li class="nav-item ">
+                        <a href="#Localizacao"  class="nav-link">Localização</a>
+                    </li>
+    
+                    <li class="nav-item ">
+                        <a href="#conttato"  class="nav-link">Contato</a>
+                    </li>
+              
+                   </div>    
+                </div>
+             
+
+               </nav>
+               <button id="navmenu" onclick="toggleHeader()">
+
+                <i class="fa fa-bars" aria-hidden="true"></i>
+                </button>
+                
+
+        </header>
+    
+        <a id="zaplogo" href="https://wa.me/5531994490680?text=Olá,%20descobri%20sua%20oficina%20DaviCar%20pelo%20site%20gostaria%20de%20fazer%20um%20de%20orçamento%20com%20você!" target="_blank"> <img id="whtp" src="img/whatsapplogo.png"> </a>
+
+        <main id="content">
+
+            <section id="home">
+                <div id="cta">
+
+                  <div id="fundopreto">
+                    <h1 class="title"> 
+                        Especialistas em Manutenção <span>Elétrica</span>
+                    </h1>
+
+                    <p class="descricao">
+                        Cada caminhão tem uma trajetória, nós garantimos que ela siga em frente.
+                    </p>
+
+                  </div>
+                   
+                    <div id="cta-buttons">
+                        <a href="#factory" class="btn-default">Ver Serviços</a>
+                        <br>
+                        <a href="tel:+5531994490680" id="phone-button">
+                            <button class="btn-default">
+                                <i class="fa-solid fa-phone"></i>
+                               
+                            </button>
+                            (31)99449-0680
+                        </a>
+                    </div><!--cta-bttons-->
+                    
+                    <div class="social-media-btns">
+                        <a href="https://wa.me/5531994490680?text=Olá,%20descobri%20sua%20oficina%20DaviCar%20pelo%20site%20gostaria%20de%20fazer%20um%20de%20orçamento%20com%20você!" target="_blank">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                        <a href="https://www.instagram.com/obdpowertruck/" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="mailto:obdpowertruck@gmail.com">
+                            <i class="fa-solid fa-envelope"></i>                        </a>
+
+                    </div>
+                </div>
+
+</section>
+
+
+
+
+
+
+                <!--mobile-->
+
+                <div id="cta2">
+
+                <div id="fundopreto2">
+                    <h1 class="title2"> 
+                        Especialistas em Manutenção e <span>Performance</span>
+                    </h1>
+
+                    <p class="descricao2">
+                        Cada carro tem uma trajetória, <br> nós garantimos que ela siga em frente.
+                    </p>
+
+                  </div>
+                   
+                    <div id="cta-buttons2">
+                        <a href="#factory" class="btn-default">Ver Serviços</a>
+                        <br>
+                        <a href="tel:+553194490680" id="phone-button">
+                            <button class="btn-default">
+                                <i class="fa-solid fa-phone"></i>
+                               
+                            </button>
+                            (31) 33613144
+                        </a>
+                    </div><!--cta-bttons-->
+                    
+                    <div class="social-media-btns">
+                        <a href="https://wa.me/5531994490680?text=Olá,%20descobri%20sua%20oficina%20DaviCar%20pelo%20site%20gostaria%20de%20fazer%20um%20de%20orçamento%20com%20você!" target="_blank">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                        <a href="https://www.instagram.com/obdpowertruck/" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="mailto:obdpowertruck@gmail.com">
+                            <i class="fa-solid fa-envelope"></i>                        </a>
+
+                    </div>
+                </div>
+
+
+            </section><!--Main-->
+
+            
+            
+        </main>
+
+        <section id="factory">
+            <h2  class="section-title"> Nossos <span id="servicos">Serviços</span></h2>
+            <hr style="height:1px; width: 1318px;margin-left: 100px; border:none; color:rgb(0, 0, 0); background-color:rgb(0, 0, 0);">
+
+            <div id="dishes">
+                <div id="dish">
+                    <div class="fileiraum">
+                        <h3>Chicote</h3><p class="formato"><br>Serviço de inspeção, reparo ou substituição do chicote elétrico do caminhão, responsável por interligar todos os componentes elétricos e eletrônicos. Problemas no chicote podem causar falhas em sensores, luzes e módulos eletrônicos.</p><img src="img/alinhamento.jpeg" class="dish-art" alt="Chicote" >
+                        
+                        <h3><br><br>Painéis</h3><p class="formato"><br>Correção de falhas no painel de instrumentos, como marcadores de combustível, velocímetro, RPM, luzes de advertência e comunicação com a ECU. Pode incluir troca de displays e componentes internos.</p><img src="img/balanceamento.jpeg" class="dish-art" alt="Painéis">
+                        
+                        
+                    </div>
+                  <div class="fileiradois">
+                    <h3>Injeção Eletrônica</h3><p class="formato"><br>Diagnóstico e manutenção do sistema de injeção eletrônica, que controla a quantidade exata de combustível e ar para o motor. Essencial para desempenho, economia e controle de emissões em caminhões a diesel.</p><img src="img/higienização.jpeg" class="dish-art" alt="Injeção Eletrônica">
+                        
+                    <h3><br><br>Manutenção Eletrônica</h3><p class="formato"> <br>Serviço amplo que abrange o diagnóstico e a correção de falhas em todo o sistema eletrônico do caminhão, incluindo sensores, chicotes, módulos, relês, conectores e componentes integrados.</p><img src="img/freios.jpeg" class="dish-art" alt="Manutenção Eletrônica">
+                    
+                   
+                  </div>
+
+                  <div class="fileiratres">
+                    <h3>Manutenção de Módulos</h3><p class="formato"><br>Reparo, reprogramação ou substituição de módulos eletrônicos, como ECU, ABS, TCU e BCM, que controlam funções críticas do caminhão, como injeção, frenagem, transmissão e sistema elétrico geral.</p><img src="img/revisao.jpeg" class="dish-art" alt="Manutenção de Módulos"></a>
+                    
+                 
+                    <h3> <br><br>Elétrica em Geral</h3><p class="formato"><br>Atuação em todos os sistemas elétricos do caminhão: iluminação, partida, alternador, bateria, aterramento, relês e fusíveis. Soluções para curto-circuitos, mau contato e falhas elétricas variadas.</p><img src="img/lavagem.jpeg" class="dish-art" alt="Elétrica em geral"></a>
+                    
+
+                  </div>
+                   
+                    
+                </div>
+            </div>
+
+            <hr id="linha" style="height:1px; width: 350px;margin-left: 20px; border:none; color:rgb(0, 0, 0); background-color:rgb(0, 0, 0);">
+
+            <div id="dishes2">
+                <div id="dish2">
+                    <div class="fileiraum2">
+                        <h3>Chicote</h3><p class="formato"><br>Serviço de inspeção, reparo ou substituição do chicote elétrico do caminhão, responsável por interligar todos os componentes elétricos e eletrônicos. Problemas no chicote podem causar falhas em sensores, luzes e módulos eletrônicos.</p><img src="img/alinhamento.jpeg" class="dish-art" alt="Chicote" >
+                        
+                        <h3><br><br>Painéis</h3><p class="formato"><br>Correção de falhas no painel de instrumentos, como marcadores de combustível, velocímetro, RPM, luzes de advertência e comunicação com a ECU. Pode incluir troca de displays e componentes internos.</p><img src="img/balanceamento.jpeg" class="dish-art" alt="Painéis">
+                        
+                        
+                    </div>
+                  <div class="fileiradois2">
+                    <h3>Injeção Eletrônica</h3><p class="formato"><br>Diagnóstico e manutenção do sistema de injeção eletrônica, que controla a quantidade exata de combustível e ar para o motor. Essencial para desempenho, economia e controle de emissões em caminhões a diesel.</p><img src="img/higienização.jpeg" class="dish-art" alt="Injeção Eletrônica">
+                        
+                    <h3><br><br>Manutenção Eletrônica</h3><p class="formato"> <br>Serviço amplo que abrange o diagnóstico e a correção de falhas em todo o sistema eletrônico do caminhão, incluindo sensores, chicotes, módulos, relês, conectores e componentes integrados.</p><img src="img/freios.jpeg" class="dish-art" alt="Manutenção Eletrônica">
+                    
+                   
+                  </div>
+
+                  <div class="fileiratres2">
+                    <h3>Manutenção de Módulos</h3><p class="formato"><br>Reparo, reprogramação ou substituição de módulos eletrônicos, como ECU, ABS, TCU e BCM, que controlam funções críticas do caminhão, como injeção, frenagem, transmissão e sistema elétrico geral.</p><img src="img/revisao.jpeg" class="dish-art" alt="Manutenção de Módulos"></a>
+                    
+                 
+                    <h3> <br><br>Elétrica em Geral</h3><p class="formato"><br>Atuação em todos os sistemas elétricos do caminhão: iluminação, partida, alternador, bateria, aterramento, relês e fusíveis. Soluções para curto-circuitos, mau contato e falhas elétricas variadas.</p><img src="img/lavagem.jpeg" class="dish-art" alt="Elétrica em geral"></a>
+                    
+
+                  </div>
+                   
+                    
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre">
+            <div class="ilustracao">
+                <div class="textalin">
+                    <h1>Confiança e Qualidade para Seu Caminhão</h1>
+                    <p>Na OBD PowerTruck, unimos conhecimento técnico especializado em caminhões com compromisso e transparência. <br><br> Somos referência em manutenção elétrica e eletrônica pesada, oferecendo diagnósticos precisos, <br> agilidade no atendimento e soluções que evitam paradas desnecessárias. Cada serviço é feito com <br> responsabilidade, pensando na sua segurança e no desempenho do seu veículo na estrada. 
+                        Confiança, eficiência e excelência – é isso que move a OBD PowerTruck. <br><br><br><br>
+                    
+                    <h1>Horário de funcionamento</h1>
+                    <p>Segunda à Sexta: 8h às 17h</p>
+                    <button id="atendimentoagendar"><a href="https://wa.me/5531994490680?text=Olá,%20descobri%20sua%20oficina%20OBD%PowerTruck%20pelo%20site%20gostaria%20de%20fazer%20um%20de%20orçamento%20com%20você!" target="_blank">Agende seu atendimento</a></button>
+                </div>
+               
+                <img src="img/davicarbaner.gif" alt="">
+
+            </div>
+
+
+
+            <div class="ilustracao2">
+                <div class="textalin2">
+          <h1>Confiança e Qualidade para Seu Caminhão</h1>
+                    <p>Na OBD PowerTruck, unimos conhecimento técnico especializado em caminhões com compromisso e transparência. <br><br> Somos referência em manutenção elétrica e eletrônica pesada, oferecendo diagnósticos precisos, <br> agilidade no atendimento e soluções que evitam paradas desnecessárias. Cada serviço é feito com <br> responsabilidade, pensando na sua segurança e no desempenho do seu veículo na estrada. 
+                        Confiança, eficiência e excelência – é isso que move a OBD PowerTruck. <br><br><br><br>
+                    
+                    <h1>Horário de funcionamento</h1>
+                    <p>Segunda à Sexta: 8h às 17h</p>
+                </div>
+                <button id="atendimentoagendar"><a href="https://wa.me/553133613144?text=Olá,%20descobri%20sua%20oficina%20DaviCar%20pelo%20site%20gostaria%20de%20fazer%20um%20de%20orçamento%20com%20você!" target="_blank">Agende seu atendimento</a></button>
+
+                <img src="img/davicarbaner.gif" alt="">
+                
+            </div>
+
+            </section>
+        
+    </div>
+
+  <section id="Localizacao">
+            <h1>LOCALIZAÇÃO</h1>
+            <!-- Aqui será exibido o mapa -->
+            <div id="map" style="height: 500px; width: 100%;"></div>
+            <!-- Carregando a API do Google Maps com a sua chave -->
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBA1-WEOi6O2xXAs8rOrrgGpE5-h2ApWRc&callback=initMap" async defer></script>
+
+            <script>
+                // Função para inicializar o mapa com a localização de Davi Car
+                function initMap() {
+                    // Definindo as coordenadas de Davi Car
+                    var localizacao = { lat: -19.9692431, lng: -44.0331356 };
+
+                    // Criando o mapa
+                    var map = new google.maps.Map(document.getElementById('map'), {
+                        zoom: 19, // Nível de zoom
+                        center: localizacao // Centro do mapa
+                    });
+
+                    // Adicionando um marcador no mapa
+                    var marker = new google.maps.Marker({
+                        position: localizacao,
+                        map: map,
+                        title: 'Davi Car' // Nome do local
+                    });
+
+                    // Evento para abrir as direções ao clicar no marcador
+                    marker.addListener('click', function() {
+                        var directionsUrl = 'https://www.google.com/maps/dir/?api=1&destination=' + localizacao.lat + ',' + localizacao.lng;
+                        window.open(directionsUrl, '_blank'); // Abre a rota em uma nova aba
+                    });
+                }
+            </script>
+    </section>
+
+    <section id="conttato">
+        <div>
+            <h1>OBD PowerTruck</h1>
+            <img src="img/parceirias.png" alt="">
+
+            <p>R. Estér Franzen de Lima, 95 <br>  Industrial, Contagem - MG <br><br>CEP: <span class="negrito">32230-080</span></p>
+    
+    
+                <p><br><br> Tel.: <span class="negrito">(31)994490680</span></p>
+                <p><br>Whatsapp: <span class="negrito">(31)994490680</span></p>
+                <p><span class="negrito"></span><br>adm.davicar@gmail.com</p>
+    
+                <div class="social-media-btns2">
+                    <a href="https://wa.me/553133613144?text=Olá,%20descobri%20sua%20oficina%20DaviCar%20pelo%20site%20gostaria%20de%20fazer%20um%20de%20orçamento%20com%20você!" target="_blank">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="https://www.instagram.com/davicarcentroautomotivo/" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="mailto:adm.davicar@gmail.com">
+                        <i class="fa-solid fa-envelope"></i>                        </a>
+                        
+                </div>
+                
+        </div>
+        
+         
+        </section>
+        <div id="logoparceria"> 
+            <img  src="img/parceirias.png" alt="">
+
+        </div>
+
+        <section id="rodape">
+        <p id="copyright">            2025 © OBD PowerTruck | Desenvolvido por BastosTechnology
+        </p>
+    
+           
+    </section>
+    <p id="copyright1">  2025 © OBD PowerTruck | Desenvolvido <br> por BastosTechnology
+
+</body>
+<script>
+     function toggleHeader() {
+            let navbar2 = document.getElementById("navbar2");
+            if (navbar2.style.display === "none" || navbar2.style.display === "") {
+                navbar2.style.display = "block";
+            } else {
+                navbar2.style.display = "none";
+            }
+     }
+</script>
+
+
+<script> function pedirSenha() {
+   function pedirSenha() {
+            var senhaCorreta = "12345"; // Substitua pela sua senha
+            var senha = prompt("Digite a senha para continuar:");
+
+            if (senha === senhaCorreta) {
+                alert("Senha correta! Ação permitida.");
+                // Coloque a ação que você deseja executar aqui
+            } else {
+                alert("Senha incorreta! Ação negada.");
+            }
+        }
+}</script>
+</html>
